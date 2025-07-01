@@ -20,8 +20,7 @@ The dataset supports comparative studies of gravitational effects, modeling of h
 
 ```text
 CMPR-Levitation/
-├── data/
-│   └── CMPR_Levitation_Dataset.xlsx   # Two sheets: In_Orbit, Ground_Matched
+├── CMPR_Levitation_Dataset.xlsx   # Two sheets: In_Orbit, Ground_Matched
 ├── scripts/
 │   ├── client.py                      # Main analysis script
 │   └── funcs.py                       # Utility functions
