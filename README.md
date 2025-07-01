@@ -28,8 +28,7 @@ CMPR-Levitation/
 ├── requirements.txt                   # Python dependencies
 ├── README.md                          # Project overview (this file)
 └── LICENSE                            # Project license
-```text
-
+```
 
 ## 📊 Dataset Description
 
