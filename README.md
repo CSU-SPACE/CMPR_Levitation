@@ -60,11 +60,3 @@ To install the required dependencies, run:
 ```bash
 pip install -r requirements.txt
 
-```text
-opencv-python==4.10.0.84  
-numpy==1.26.4  
-pandas==2.2.2  
-matplotlib==3.9.2  
-tqdm==4.66.5  
-scipy==1.13.1  
-```
