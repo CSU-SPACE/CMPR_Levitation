@@ -14,20 +14,22 @@ A dual-environment dataset from electrostatic levitation experiments onboard the
 
 The dataset supports comparative studies of gravitational effects, modeling of high-temperature molten materials, and data-driven property prediction.
 
----
+
 
 ## 📂 Repository Structure
+
+```text
 CMPR-Levitation/
 ├── data/
 │   └── CMPR_Levitation_Dataset.xlsx   # Two sheets: In_Orbit, Ground_Matched
 ├── scripts/
-│   ├── client_zhengshi_v17.py         # Main analysis script
+│   ├── client.py                      # Main analysis script
 │   └── funcs.py                       # Utility functions
 ├── requirements.txt                   # Python dependencies
 ├── README.md                          # Project overview (this file)
 └── LICENSE                            # Project license
 
----
+
 
 ## 📊 Dataset Description
 
@@ -51,13 +53,10 @@ Organized into four sections:
 
 All records use SI units and consistent field names. Full field definitions will be provided in accompanying documentation.
 
----
+
 ## 🧪 Requirements
 
-Dependencies listed in requirements.txt:
-opencv-python==4.10.0.84
-numpy==1.26.4
-pandas==2.2.2
-matplotlib==3.9.2
-tqdm==4.66.5
-scipy==1.13.1
+To install the required dependencies, run:
+
+```bash
+pip install -r requirements.txt
