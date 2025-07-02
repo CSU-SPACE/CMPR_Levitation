@@ -26,7 +26,6 @@ CMPR-Levitation/
 │   └── funcs.py                       # Utility functions
 ├── requirements.txt                   # Python dependencies
 ├── README.md                          # Project overview (this file)
-└── LICENSE                            # Project license
 ```
 
 ## 📊 Dataset Description
